@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cakes on the Porch · Delicious Cakes by Christina</title>
+  <meta name="description" content="Homemade layer cakes in a self-serve fridge on Christina's porch in Milton, Ontario. Every cake is $10. Open daily from 8am until sold out.">
+  <meta name="theme-color" content="#FBF4EC">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Cakes on the Porch · Delicious Cakes by Christina">
+  <meta property="og:description" content="Homemade layer cakes in a self-serve porch fridge in Milton, ON. Every cake is $10.">
+  <meta property="og:image" content="/img/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,0..100;1,9..144,300..700,0..100&family=Karla:ital,wght@0,400..700;1,400&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <!-- Shared arc for the round cake labels (text curves along the top like Christina's real stickers) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <path id="label-arc" d="M 38,100 A 62,62 0 0 1 162,100" />
+    </defs>
+  </svg>
+
+  <div class="concept-ribbon" role="note">
+    <p><strong>Website concept</strong> for Delicious Cakes by Christina. This is a preview, not a live shop.</p>
+    <p class="concept-ribbon__credit">Photos &amp; menu from <a href="https://www.instagram.com/delicious_cake_by_c/">@delicious_cake_by_c</a></p>
+  </div>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Delicious Cakes by Christina, home">
+      <span class="wordmark__script">Delicious Cakes</span>
+      <span class="wordmark__by">by Christina</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="#fridge">This week</a>
+      <a href="#how">How it works</a>
+      <a href="#visit">Visit</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__copy">
+        <p class="porch-status" data-porch-status>
+          <span class="porch-status__dot" aria-hidden="true"></span>
+          <span data-porch-status-text>Open every day from 8am, until sold out</span>
+        </p>
+
+        <h1 class="hero__title">
+          <span class="hero__title-cakes">Cakes</span>
+          <span class="hero__title-rest">on the Porch</span>
+        </h1>
+
+        <p class="hero__lede">
+          Homemade layer cakes, packed into tubs and stocked in a self-serve fridge on
+          Christina’s front porch in Milton. Grab your favourite, pay by e-Transfer or
+          drop cash in the pink box, and off you go.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#fridge">See what’s in the fridge</a>
+          <a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&amp;query=646+Lott+Cres+Milton+ON">646 Lott Cres, Milton <span aria-hidden="true">→</span></a>
+        </div>
+
+        <ul class="hero__facts">
+          <li><strong>$10</strong> every cake</li>
+          <li><strong>Fridays</strong> new line-up</li>
+          <li><strong>Daily</strong> restock</li>
+        </ul>
+      </div>
+
+      <div class="hero__media">
+        <figure class="hero__photo">
+          <img src="/img/hero-fridge.webp" width="900" height="1200"
+               alt="Rows of Biscoff cake tubs with caramel drizzle, each with a round Delicious Cakes by Christina label">
+        </figure>
+        <figure class="hero__snap">
+          <img src="/img/smores.webp" width="720" height="900" alt="Close-up of torched meringue on a S'mores cake">
+          <figcaption>S’mores, torched meringue</figcaption>
+        </figure>
+        <div class="price-badge" aria-label="Ten dollars each">
+          <svg viewBox="0 0 120 120" aria-hidden="true">
+            <path d="M60.00 8.00 A10.5 10.5 0 0 1 77.79 11.14 A10.5 10.5 0 0 1 93.42 20.17 A10.5 10.5 0 0 1 105.03 34.00 A10.5 10.5 0 0 1 111.21 50.97 A10.5 10.5 0 0 1 111.21 69.03 A10.5 10.5 0 0 1 105.03 86.00 A10.5 10.5 0 0 1 93.42 99.83 A10.5 10.5 0 0 1 77.79 108.86 A10.5 10.5 0 0 1 60.00 112.00 A10.5 10.5 0 0 1 42.21 108.86 A10.5 10.5 0 0 1 26.58 99.83 A10.5 10.5 0 0 1 14.97 86.00 A10.5 10.5 0 0 1 8.79 69.03 A10.5 10.5 0 0 1 8.79 50.97 A10.5 10.5 0 0 1 14.97 34.00 A10.5 10.5 0 0 1 26.58 20.17 A10.5 10.5 0 0 1 42.21 11.14 A10.5 10.5 0 0 1 60.00 8.00Z"/>
+          </svg>
+          <span class="price-badge__amount">$10</span>
+          <span class="price-badge__each">each</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROMISES STRIP ============ -->
+    <section class="promises" aria-label="Good to know">
+      <ul>
+        <li>Gelatin &amp; alcohol free</li>
+        <li>Food handler certified</li>
+        <li>Health-inspected kitchen</li>
+        <li>Heads up: the fridge contains nuts</li>
+      </ul>
+    </section>
+
+    <!-- ============ THIS WEEK ============ -->
+    <section class="fridge" id="fridge">
+      <header class="section-head">
+        <p class="eyebrow">In the fridge this week</p>
+        <h2>Nine flavours, all&nbsp;$10</h2>
+        <p class="section-head__sub">The line-up changes every Friday and the fridge is restocked daily. First come, first served. Once a flavour’s gone, it’s gone.</p>
+      </header>
+
+      <div class="cake-grid">
+
+        <article class="cake">
+          <div class="cake__media">
+            <figure class="cake__photo"><img src="/img/tiramisu.webp" width="720" height="900" loading="lazy" alt="Tiramisu tubs dusted with cocoa"></figure>
+            <div class="label" aria-hidden="true">
+              <svg viewBox="0 0 200 200"><text><textPath href="#label-arc" startOffset="50%" text-anchor="middle">Delicious Cakes by Christina</textPath></text></svg>
+              <span class="label__name">Tiramisu</span>
+            </div>
+          </div>
+          <div class="cake__body">
+            <h3 class="cake__name">Tiramisu</h3>
+            <p class="cake__desc">Classic layers of coffee-soaked ladyfingers in a mascarpone cream.</p>
+            <p class="cake__note">Tends to sell out early</p>
+          </div>
+        </article>
+
+        <article class="cake">
+          <div class="cake__media">
+            <figure class="cake__photo"><img src="/img/dubai-chocolate.webp" width="720" height="900" loading="lazy" alt="Dubai chocolate cake topped with pistachio drizzle and crushed pistachios"></figure>
+            <div class="label" aria-hidden="true">
+              <svg viewBox="0 0 200 200"><text><textPath href="#label-arc" startOffset="50%" text-anchor="middle">Delicious Cakes by Christina</textPath></text></svg>
+              <span class="label__name">Dubai Chocolate</span>
+            </div>
+          </div>
+          <div class="cake__body">
+            <h3 class="cake__name">Dubai Chocolate</h3>
+            <p class="cake__desc">Chocolate cake filled with pistachio kataifi chocolate, ganache and Chantilly cream.</p>
+            <p class="cake__tag">Contains pistachio</p>
+          </div>
+        </article>
+
+        <article class="cake">
+          <div class="cake__media">
+            <figure class="cake__photo"><img src="/img/reeses.webp" width="720" height="900" loading="lazy" alt="Chocolate cake tubs topped with peanut butter swirls and chopped peanut butter cups"></figure>
+            <div class="label" aria-hidden="true">
+              <svg viewBox="0 0 200 200"><text><textPath href="#label-arc" startOffset="50%" text-anchor="middle">Delicious Cakes by Christina</textPath></text></svg>
+              <span class="label__name">Reese’s Pieces Buttercup</span>
+            </div>
+          </div>
+          <div class="cake__body">
+            <h3 class="cake__name">Reese’s Pieces Buttercup</h3>
+            <p class="cake__desc">Chocolate cake, peanut butter cream and a chocolate Chantilly cream.</p>
+            <p class="cake__tag">Contains peanuts</p>
+          </div>
+        </article>
+
+        <article class="cake cake--nophoto">
+          <div class="cake__media">
+            <div class="cake__photo cake__photo--blank">
+              <span>Photo coming soon</span>
+              <svg class="tub" viewBox="0 26 200 120" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 34h168a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H16a4 4 0 0 1-4-4v-8a4 4 0 0 1 4-4z"/>
+                <path d="M22 50l7 82a8 8 0 0 0 8 7h126a8 8 0 0 0 8-7l7-82"/>
+                <path d="M30 58c4-6 12-6 16 0 4-6 12-6 16 0 4-6 12-6 16 0 4-6 12-6 16 0 4-6 12-6 16 0 4-6 12-6 16 0 4-6 12-6 16 0 4-6 12-6 16 0 4-6 12-6 12 0"/>
+                <path d="M26 86c10 5 20 5 30 0s20-5 30 0 20 5 30 0 20-5 30 0 20 5 28 0"/>
+                <path d="M28 110c10 5 20 5 30 0s20-5 30 0 20 5 30 0 20-5 30 0 20 5 26 0"/>
+              </svg>
+            </div>
+            <div class="label" aria-hidden="true">
+              <svg viewBox="0 0 200 200"><text><textPath href="#label-arc" startOffset="50%" text-anchor="middle">Delicious Cakes by Christina</textPath></text></svg>
+              <span class="label__name">Strawberry Cream</span>
+            </div>
+          </div>
+          <div class="cake__body">
+            <h3 class="cake__name">Strawberry Cream</h3>
+            <p class="cake__desc">Vanilla cake filled with strawberry compote and Chantilly cream.</p>
+          </div>
+        </article>
+
+        <article class="cake">
+          <div class="cake__media">
+            <figure class="cake__photo"><img src="/img/nutella.webp" width="720" height="900" loading="lazy" alt="Nutella cake tub with hazelnuts and Christina's handwritten-style label"></figure>
+            <div class="label" aria-hidden="true">
+              <svg viewBox="0 0 200 200"><text><textPath href="#label-arc" startOffset="50%" text-anchor="middle">Delicious Cakes by Christina</textPath></text></svg>
+              <span class="label__name">Nutella</span>
+            </div>
+          </div>
+          <div class="cake__body">
+            <h3 class="cake__name">Nutella</h3>
+            <p class="cake__desc">Chocolate cake, Nutella chocolate, and Chantilly cream with hazelnuts.</p>
+            <p class="cake__tag">Contains hazelnuts</p>
+          </div>
+        </article>
+
+        <article class="cake cake--nophoto cake--lemon">
+          <div class="cake__media">
+            <div class="cake__photo cake__photo--blank">
+              <span>Photo coming soon</span>
+              <svg class="tub" viewBox="0 26 200 120" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 34h168a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H16a4 4 0 0 1-4-4v-8a4 4 0 0 1 4-4z"/>
+                <path d="M22 50l7 82a8 8 0 0 0 8 7h126a8 8 0 0 0 8-7l7-82"/>
+                <path d="M30 58c4-6 12-6 16 0 4-6 12-6 16 0 4-6 12-6 16 0 4-6 12-6 16 0 4-6 12-6 16 0 4-6 12-6 16 0 4-6 12-6 16 0 4-6 12-6 16 0 4-6 12-6 12 0"/>
+                <path d="M26 86c10 5 20 5 30 0s20-5 30 0 20 5 30 0 20-5 30 0 20 5 28 0"/>
+                <path d="M28 110c10 5 20 5 30 0s20-5 30 0 20 5 30 0 20-5 30 0 20 5 26 0"/>
+              </svg>
+            </div>
+            <div class="label" aria-hidden="true">
+              <svg viewBox="0 0 200 200"><text><textPath href="#label-arc" startOffset="50%" text-anchor="middle">Delicious Cakes by Christina</textPath></text></svg>
+              <span class="label__name">OG Lemon</span>
+            </div>
+          </div>
+          <div class="cake__body">
+            <h3 class="cake__name">OG Lemon</h3>
+            <p class="cake__desc">Vanilla cake, lemon curd and Chantilly cream.</p>
+          </div>
+        </article>
+
+        <article class="cake">
+          <div class="cake__media">
+            <figure class="cake__photo"><img src="/img/red-velvet.webp" width="720" height="900" loading="lazy" alt="Red velvet cake tubs with cream cheese Chantilly and red velvet crumbs"></figure>
+            <div class="label" aria-hidden="true">
+              <svg viewBox="0 0 200 200"><text><textPath href="#label-arc" startOffset="50%" text-anchor="middle">Delicious Cakes by Christina</textPath></text></svg>
+              <span class="label__name">Red Velvet</span>
+            </div>
+          </div>
+          <div class="cake__body">
+            <h3 class="cake__name">Red Velvet</h3>
+            <p class="cake__desc">Rich red velvet cake with a cream cheese Chantilly cream.</p>
+          </div>
+        </article>
+
+        <article class="cake">
+          <div class="cake__media">
+            <figure class="cake__photo"><img src="/img/biscoff.webp" width="720" height="900" loading="lazy" alt="Biscoff cake topped with a Lotus cookie and caramel drizzle"></figure>
+            <div class="label" aria-hidden="true">
+              <svg viewBox="0 0 200 200"><text><textPath href="#label-arc" startOffset="50%" text-anchor="middle">Delicious Cakes by Christina</textPath></text></svg>
+              <span class="label__name">Biscoff</span>
+            </div>
+          </div>
+          <div class="cake__body">
+            <h3 class="cake__name">Biscoff</h3>
+            <p class="cake__desc">Vanilla cake, Biscoff cream, Chantilly cream and Biscoff cookie crumbs.</p>
+          </div>
+        </article>
+
+        <article class="cake">
+          <div class="cake__media">
+            <figure class="cake__photo"><img src="/img/oreo.webp" width="720" height="900" loading="lazy" alt="Oreo cake tubs covered in cookie crumble and whole Oreos"></figure>
+            <div class="label" aria-hidden="true">
+              <svg viewBox="0 0 200 200"><text><textPath href="#label-arc" startOffset="50%" text-anchor="middle">Delicious Cakes by Christina</textPath></text></svg>
+              <span class="label__name">Oreo</span>
+            </div>
+          </div>
+          <div class="cake__body">
+            <h3 class="cake__name">Oreo</h3>
+            <p class="cake__desc">Chocolate cake, Oreo cookie crumble, vanilla Chantilly cream and Oreo cookie crumbs.</p>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="rotation">
+        <h3 class="rotation__title">Missed a favourite? <em>They come back around.</em></h3>
+        <ul class="rotation__list">
+          <li><img src="/img/smores.webp" width="720" height="900" loading="lazy" alt=""><span>S’mores</span></li>
+          <li><img src="/img/apple-caramel.webp" width="720" height="900" loading="lazy" alt=""><span>Apple Caramel</span></li>
+          <li><img src="/img/coffee-crisp.webp" width="720" height="900" loading="lazy" alt=""><span>Coffee Crisp</span></li>
+          <li><img src="/img/pumpkin-spice.webp" width="720" height="900" loading="lazy" alt=""><span>Pumpkin Spice Brûlé</span></li>
+        </ul>
+        <p class="rotation__more">Also seen in the fridge: Lavender Lemon, Greek Baklava, Turtles, and Mint Chocolate Chip Cookie Dough.</p>
+      </div>
+    </section>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <section class="how" id="how">
+      <div class="how__inner">
+        <header class="section-head">
+          <p class="eyebrow">How the porch works</p>
+          <h2>It’s an honour system</h2>
+          <p class="section-head__sub">Thanks for being kind, honest, and for supporting a small business.</p>
+        </header>
+
+        <ol class="steps">
+          <li><span class="steps__n">1</span><h3>Look at the list</h3><p>Check what’s in the fridge today and pick the flavour you’re craving.</p></li>
+          <li><span class="steps__n">2</span><h3>Open the fridge &amp; grab</h3><p>Take the cake (or cakes) you want.</p></li>
+          <li><span class="steps__n">3</span><h3>Close the fridge</h3><p>Please don’t stand there with the door open. It keeps the cakes cold for the next person.</p></li>
+          <li><span class="steps__n">4</span><h3>Add it up</h3><p>Every cake is $10, so tally up how many you took.</p></li>
+          <li><span class="steps__n">5</span><h3>Pay &amp; enjoy</h3><p>e-Transfer or cash, before you leave the porch.</p></li>
+        </ol>
+
+        <div class="pay">
+          <div class="pay__card">
+            <p class="pay__kind">e-Transfer</p>
+            <p class="pay__value">416-889-6820</p>
+            <button class="pay__copy" type="button" data-copy="4168896820">Copy number</button>
+          </div>
+          <div class="pay__or" aria-hidden="true">or</div>
+          <div class="pay__card">
+            <p class="pay__kind">Cash</p>
+            <p class="pay__value">The pink box</p>
+            <p class="pay__hint">on the side of the fridge</p>
+          </div>
+        </div>
+        <p class="how__footnote">Please send payment before you leave the porch. And smile, you’re on camera!</p>
+      </div>
+    </section>
+
+    <!-- ============ SEASONAL ============ -->
+    <section class="seasonal" aria-labelledby="seasonal-title">
+      <div class="seasonal__card">
+        <div class="seasonal__head">
+          <p class="eyebrow eyebrow--autumn">Seasonal pre-orders</p>
+          <h2 id="seasonal-title">Thanksgiving cakes</h2>
+          <p>The porch is first come, first served, but for Thanksgiving Christina is taking pre-orders on two sizes.</p>
+        </div>
+        <dl class="seasonal__prices">
+          <div><dt>Layer cake</dt><dd>$80</dd></div>
+          <div><dt>13×10 tray cake</dt><dd>$65</dd></div>
+        </dl>
+        <div class="seasonal__flavours">
+          <p class="seasonal__label">Flavours</p>
+          <ul>
+            <li>Apple Caramel</li><li>Pumpkin Spice</li><li>Biscoff</li><li>Nutella</li><li>Strawberry Cream</li><li>Tiramisu <small>(tray only)</small></li>
+          </ul>
+        </div>
+        <a class="btn btn--autumn" href="https://ig.me/m/delicious_cake_by_c">Message Christina to order</a>
+      </div>
+    </section>
+
+    <!-- ============ KIND WORDS ============ -->
+    <section class="kind" aria-labelledby="kind-title">
+      <header class="section-head">
+        <p class="eyebrow">Stuck to the fridge</p>
+        <h2 id="kind-title">Kind words from the neighbourhood</h2>
+      </header>
+      <ul class="notes">
+        <li class="note note--a"><blockquote>“Just stopped by the porch today for the first time, got some cakes and they didn’t disappoint at all. Sold out of the tiramisu, I WILL be back.”</blockquote></li>
+        <li class="note note--b"><blockquote>“They are delic! Had the Biscoff and red velvet! Love this community bakery vibe!!!”</blockquote></li>
+        <li class="note note--c"><blockquote>“Tried the Dubai chocolate yesterday. My friend drove an hour to get it to me. It was really good.”</blockquote></li>
+        <li class="note note--d"><blockquote>“The tiramisu was already sold out and there was a line at like 8:40am, but I got the strawberry and it’s so good!”</blockquote></li>
+        <li class="note note--e"><blockquote>“So delicious!! The Nutella one was my favourite.”</blockquote></li>
+        <li class="note note--f"><blockquote class="note__shout">“START THE CAR!!!”</blockquote></li>
+      </ul>
+      <p class="kind__source">From comments on Christina’s Instagram.</p>
+    </section>
+
+    <!-- ============ VISIT ============ -->
+    <section class="visit" id="visit">
+      <div class="visit__info">
+        <p class="eyebrow">Come by the porch</p>
+        <h2>646 Lott Cres<br>Milton, Ontario</h2>
+        <dl class="visit__list">
+          <div><dt>Hours</dt><dd>Every day, 8am until sold out</dd></div>
+          <div><dt>Price</dt><dd>$10 for every cake in the fridge</dd></div>
+          <div><dt>Pay</dt><dd>e-Transfer or cash</dd></div>
+          <div><dt>Updates</dt><dd>Fridge news on <a href="https://www.instagram.com/delicious_cake_by_c/">Instagram</a> &amp; Facebook</dd></div>
+        </dl>
+        <div class="visit__actions">
+          <a class="btn btn--primary" href="https://www.google.com/maps/search/?api=1&amp;query=646+Lott+Cres+Milton+ON">Google Maps</a>
+          <a class="btn btn--ghost" href="https://maps.apple.com/?q=646+Lott+Cres,+Milton,+ON">Apple Maps</a>
+        </div>
+      </div>
+      <div class="visit__map">
+        <iframe title="Map showing 646 Lott Cres, Milton, Ontario"
+                src="https://maps.google.com/maps?q=646%20Lott%20Cres%2C%20Milton%2C%20ON&amp;z=15&amp;output=embed"
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq" id="faq">
+      <header class="section-head">
+        <p class="eyebrow">Good questions</p>
+        <h2>The ones everyone asks</h2>
+      </header>
+
+      <div class="faq__list">
+        <details>
+          <summary>Is it actual cake?</summary>
+          <p>Yes. Each tub is layers of cake with a filling and Chantilly cream: vanilla, chocolate, red velvet and so on, depending on the flavour.</p>
+        </details>
+        <details>
+          <summary>Are the cakes halal?</summary>
+          <p>The entire fridge is gelatin-free and alcohol-free. For anything more specific, please <a href="https://ig.me/m/delicious_cake_by_c">message Christina</a>.</p>
+        </details>
+        <details>
+          <summary>Are they nut-free?</summary>
+          <p>No. The fridge contains nuts. This week’s line-up includes peanuts, pistachios and hazelnuts, so please don’t rely on it if you have a nut allergy.</p>
+        </details>
+        <details>
+          <summary>Can I reserve cakes for a party?</summary>
+          <p>The porch is first come, first served. Christina isn’t taking custom orders right now. Seasonal pre-orders, like Thanksgiving, are the exception.</p>
+        </details>
+        <details>
+          <summary>When does the fridge get restocked?</summary>
+          <p>Every day. The flavour line-up changes on Fridays. Follow along on <a href="https://www.instagram.com/delicious_cake_by_c/">Instagram</a> to see what’s in.</p>
+        </details>
+        <details>
+          <summary>Is the kitchen inspected?</summary>
+          <p>Yes. Christina is food handler certified and bakes in a health-inspected kitchen.</p>
+        </details>
+        <details>
+          <summary>How big are the cakes? Any eggless or dairy-free options?</summary>
+          <p>Best to ask Christina directly. <a href="https://ig.me/m/delicious_cake_by_c">Send her a message on Instagram</a>.</p>
+        </details>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="doormat" aria-hidden="true">
+      <span>Sweet people</span>
+      <span>shop here</span>
+      <span class="doormat__heart">♥</span>
+    </div>
+    <div class="site-footer__row">
+      <p class="site-footer__brand"><span class="wordmark__script">Delicious Cakes</span> by Christina</p>
+      <p>646 Lott Cres, Milton, Ontario · <a href="https://www.instagram.com/delicious_cake_by_c/">Instagram</a></p>
+    </div>
+    <p class="site-footer__concept">A website concept made for Christina. Photos and menu details come from her Instagram.</p>
+  </footer>
+
+  <script src="/script.js" defer></script>
+</body>
+</html>
